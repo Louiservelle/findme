@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(213.37deg, #FF4A56 13.23%, #1E1E1E 80.15%);
+    background-attachment: fixed;
+}
+
+.title{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardprofile{
+    background-color: white;
+    border-radius: 20px;
+    width: 1400px;
+    height: 544px;
+}

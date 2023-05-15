@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/createMission.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="/" class="title"><h1>findme</h1></a>
+        <div id="signBtn">
+        </div>
+      </header>
+    <div id="content">
+        <div id="boxCreateMission">
+            <form action="/missions" method="post">
+                <div class="form-example">
+                    <input type="text" placeholder="title" name="title" id="title" required>
+                </div>
+                <div class="form-example">
+                    <input type="text" placeholder="Description" name="description" id="description" required>
+                </div>
+                <div class="form-example">
+                    <input type="text" placeholder="skills" name="skills" id="skills" required>
+                </div>
+                <div class="form-example">
+                    <input type="text" placeholder="user_id" name="user_id" id="user_id" required>
+                </div>
+                    <button type="submit" class="createMission">Create</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

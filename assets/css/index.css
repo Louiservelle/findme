@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(213.37deg, #FF4A56 13.23%, #1E1E1E 80.15%);
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#signBtn{
+    margin: 10px;
+}
+
+.logBtn{
+    width: 151px;
+    height: 49px;
+    background: #FF4A56;
+    border: 0.8px solid #FFFFFF;
+    border-radius: 24.5px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 26px;
+    color: #FFFFFF;
+    box-shadow: 4px 8px 7px rgba(0, 0, 0, 0.25);
+}
+
+.title{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+}
+
+
+.img-human{
+    height: 300px;
+    width: 250px;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#textContent{
+    color: white;
+}
+
+#svgContent img{
+    width: 577px;
+    height: 364px;
+}
+
+#join-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+#findBtn{
+    height: 54px;
+    width: 184px;
+    border-radius: 30px;
+    box-shadow: 4px 8px 7px rgba(0, 0, 0, 0.25);
+    background-color: #FF4A56;
+    border: white solid 1px;
+    color: white;
+    font-family:  'League Spartan', sans-serif;
+}
+
+footer{
+    position: absolute;
+    width: 100%; height: 50px;
+    bottom: 0; left: 0; right: 0;
+    color: white;
+}
+
+#ContentRegister{
+position: absolute;
+width: 591px;
+height: 565px;
+top: 207px;
+
+background-color: #FFFFFF;
+box-shadow: 15px 11px 9px rgba(0, 0, 0, 0.25);
+border-radius: 65px;
+}

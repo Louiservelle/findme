@@ -1,0 +1,71 @@
+html,body{
+    background: linear-gradient(213.37deg, #FF4A56 13.23%, #1E1E1E 80.15%);
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#signBtn{
+    margin: 10px;
+}
+
+.logBtn{
+    width: 151px;
+    height: 49px;
+    background: #FF4A56;
+    border: 0.8px solid #FFFFFF;
+    border-radius: 24.5px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 26px;
+    color: #FFFFFF;
+    box-shadow: 4px 8px 7px rgba(0, 0, 0, 0.25);
+}
+
+.title{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxforms{
+    width: 440px;
+    height: 444px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 44px;
+    box-shadow: 15px 11px 9px rgba(0, 0, 0, 0.25);
+}
+
+input{
+    width: 340px;
+    height: 40px;
+    color: #1E1E1E;
+    border: #FF4A56 solid 1.5px;
+    border-radius: 10px;
+    margin: 4px;
+}
+
+.signBtn{
+    width: 340px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FF4A56;
+    color: white;
+}
